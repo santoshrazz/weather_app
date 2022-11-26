@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Try to make a Good Publishing Weather App Using Html, Css , JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div class="headerSection">
+            <header>
+                <nav class="navBar">
+                    <h1>Welcome to Razz's Wether App</h1>
+                </nav>
+            </header>
+        </div>
+        <div class="mainCardSection">
+            <div class="cardSection">
+                <div class="name_Degree">
+                    <h2>Delhi</h2>
+                    <h3 id="del_temp"></h3>
+                    <h4 id="del_text"></h4>
+                </div>
+                <div class="img"><img src="Delhi.png" alt=""></div>
+            </div>
+            <div class="cardSection">
+                <div class="name_Degree">
+                    <h2>Kolkata</h2>
+                    <h3 id="kol_temp"></h3>
+                    <h4 id="kol_text"></h4>
+                </div>
+                <div class="img"><img src="Kolkata.jpeg" alt=""></div>
+            </div>
+            <div class="cardSection">
+                <div class="name_Degree">
+                    <h2>Agra</h2>
+                    <h3 id="agra_temp"></h3>
+                    <h4 id="agra_text"></h4>
+                </div>
+                <div class="img"><img src="Taj_Mahal.jpeg" alt=""></div>
+            </div>
+            <div class="cardSection">
+                <div class="name_Degree">
+                    <h2>Patna</h2>
+                    <h3 id="patna_temp"></h3>
+                    <h4 id="patna_text"></h4>
+                </div>
+                <div class="img"><img src="Delhi.png" alt=""></div>
+            </div>
+        </div>
+    </main>
+    <section class="searchSection">
+        <div class="search">
+            <div class="input">
+                <h2>Search For Your Own City</h2>
+                <input type="search" id="search" placeholder="Search For Your City">
+                <button id="search_btn">Search</button>
+                <div class="append">
+                    <div class="Weather_Condition">
+                        <p class="append_degree"></p>
+                        <p class="append_condition"></p>
+                    </div>
+                    <div class="append_img">
+                        <img src id="cluod_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="illustrate"><img src="Illustration.png" alt=""></div>
+    </section>
+    <section class="developer">
+        <div class="dev_main">
+            <div class="dev_content">
+                <div class="dev_img"><img src="pic5.jpg" alt="Developer_Pic"></div>
+                <div class="dev_description">
+                    <h1>Santosh Raj</h1>
+                    <p>That was just one project from my so many projects. <br> You will also find so many projects on
+                        my
+                        Github account and you can use as a daily tool</p>
+                </div>
+            </div>
+            <div class="social_media">
+                <h1>Social Media Profiles</h1>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100064916148016">FaceBook</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="https://replit.com/@santoshrajbgp11">Replit</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="dev_fulldiv">
+            <p>😍</p>
+            <button id="dev_btn">Check Developer Profile</button>
+        </div>
+    </section>
+</body>
+
+</html>
